@@ -1,0 +1,8 @@
+N=input('enter the number of iteratoins');
+m=input('ente the size of life matrix');
+A=round(rand(m)-0.5);
+
+
+for m=1:N
+    [A,g]=life()
+end
